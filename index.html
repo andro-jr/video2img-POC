@@ -4,8 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <script defer src="./script.js"></script>
   </head>
   <body>
     <h1>Hello World</h1>
+    <video id="video" style="display: none">
+      <source src="./ATLAS+ORION+32mm+T2.mp4" type="video/mp4" />
+    </video>
+
+    <!-- Canvas to draw the video frame -->
+    <canvas id="canvas" style="display: none"></canvas>
+
+    <button id="capture">Capture Frames</button>
   </body>
 </html>
